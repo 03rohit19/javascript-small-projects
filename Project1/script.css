@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+.count {
+  font-size: 3rem;
+}
+button {
+  background-color: aqua;
+}
+input {
+  height: 2rem;
+  width: 5rem;
+  font-size: 1rem;
+  margin: 16px 8px;
+}
