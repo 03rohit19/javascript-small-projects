@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bill.css" />
+    <script src="bill.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="bill-input">
+        <h1>Bill</h1>
+        <div class="input-container">
+          <span>₹</span>
+          <input type="number" class="bill-amount" />
+        </div>
+        <p>Select Tip</p>
+        <div class="tip-container">
+          <div class="tip">5%</div>
+          <div class="tip">10%</div>
+          <div class="tip">15%</div>
+          <div class="tip">20%</div>
+          <div class="tip">25%</div>
+          <div class="tip">30%</div>
+        </div>
+        <input
+          class="custom-tip gray-input"
+          type="number"
+          placeholder="Tip in percentage"
+        />
+        <p>Number of people</p>
+        <input
+          class="number-of-people gray-input"
+          type="number"
+          placeholder="Number of people"
+        />
+        <button class="generate-bill">Generate Bill</button>
+      </div>
+      <div class="bill-output">
+        <p class="tip-amount">Tip Amopunt <span></span></p>
+        <p class="total">Total<span></span></p>
+        <p class="each-person-bill">Each Person Bill<span></span></p>
+        <button class="reset-btn">Reset</button>
+      </div>
+    </main>
+  </body>
+</html>

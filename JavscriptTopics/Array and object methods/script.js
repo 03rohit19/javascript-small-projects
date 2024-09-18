@@ -16,3 +16,4 @@ const adultStudents = students.filter((student) => {
 const adultStudentName = adultStudents.map((stu) => {
   return stu.name;
 });
+console.log(adultStudentName);
